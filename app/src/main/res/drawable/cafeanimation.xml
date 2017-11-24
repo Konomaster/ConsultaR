@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:duration="100" android:drawable="@drawable/cafe_0"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_1"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_2"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_3"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_4"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_5"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_6"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_7"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_8"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_9"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_10"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_11"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_11"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_12"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_13"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_14"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_15"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_16"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_17"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_18"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_19"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_20"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_21"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_22"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_23"/>
+
+    <item android:duration="100" android:drawable="@drawable/cafe_24"/>
+
+</animation-list>

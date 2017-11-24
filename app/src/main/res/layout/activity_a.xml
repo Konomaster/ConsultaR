@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="match_parent"
+tools:context="com.example.fernando.menudeslisante.view.fragments.AActivity"
+    android:orientation="vertical">
+<!-- inicio banner app -->
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Cliente: "
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:text="Nome: " />
+
+<TextView
+    android:id="@+id/tvNome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:paddingTop="10dp"
+    android:textColor="#000000"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    tools:text="" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Email: "
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:text="Email: " />
+
+<TextView
+    android:id="@+id/tvEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:textColor="#000000"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    tools:text="" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="CPF: "
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:text="CPF: " />
+
+<TextView
+    android:id="@+id/tvCPF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:textColor="#000000"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    tools:text="" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Telefone: "
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:text="Telefone: " />
+
+<TextView
+    android:id="@+id/tvTelefone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:textColor="#000000"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    tools:text="" />
+
+<!-- fim banner app -->
+
+
+<!-- TODO: Update blank fragment layout -->
+
+
+</LinearLayout>
