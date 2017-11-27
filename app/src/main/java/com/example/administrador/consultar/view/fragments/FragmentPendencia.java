@@ -24,6 +24,8 @@ import com.example.administrador.consultar.beans.Venda;
 import com.example.administrador.consultar.servicos.servixos_all;
 
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 /**
@@ -67,7 +69,11 @@ public class FragmentPendencia extends Fragment {
         salv = new AdapterListView(getContext());
         //O erro está aqui porque nn pode pegar o findAll tem que pegar o findbySql
         List<Cliente> cursor = crud.findAllCliente();
-        final List<Venda> cursor1 = crud.findVendasPendentes();
+        List<Venda> cursor1 = crud.findVendasPendentes();
+
+
+
+
         Log.d("IFMG", "onCreateView: " + cursor1.get(0).getVenData());
 
         salv.setLista(cursor1, cursor.get(0).getCliNome());
@@ -156,4 +162,13 @@ public class FragmentPendencia extends Fragment {
         alerta.show();
     }
 
+    private void selecionaVendasUltimoMes(List<Venda> vendas){
+        GregorianCalendar gc=new GregorianCalendar();
+        Date datatual=gc.getTime();
+        gc.setTime(datatual);
+     //   Date datacomparar=gc.
+
+
+
+    }
 }

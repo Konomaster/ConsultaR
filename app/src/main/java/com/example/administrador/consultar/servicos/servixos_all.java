@@ -358,6 +358,8 @@ public class servixos_all extends SQLiteOpenHelper {
 
     public List<Venda> findVendasPendentes(){
         SQLiteDatabase db=getReadableDatabase();
+
+
         try{
 
             Cursor c= db.rawQuery("select * from venda where venStatus='Pendente';",null);
@@ -411,6 +413,7 @@ public class servixos_all extends SQLiteOpenHelper {
                 contato.setVenCodigo(c.getInt(c.getColumnIndex("venCodigo")));
                 contato.setVenFormaPagamento(c.getString(c.getColumnIndex("venFormaPagamento")));
                 contato.setVenData(c.getString(c.getColumnIndex("venData")));
+                System.out.println("Vendata: "+contato.getVenData());
                 contato.setVenStatus(c.getString(c.getColumnIndex("venStatus")));
                 contato.setVenValorTotal(c.getFloat(c.getColumnIndex("venValorTotal")));
                 contato.setVen_cliCodigo(c.getInt(c.getColumnIndex("ven_cliCodigo")));

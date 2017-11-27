@@ -30,7 +30,7 @@ public class FragmentHistorico extends Fragment {
         bd=new servixos_all(getContext());
 
         ExpandableListView expandableListView=(ExpandableListView) view.findViewById(R.id.expandable);
-        expandableListView.setAdapter(new AdapterExpandableListView(getContext(),getLista(),bd.findAllCliente().get(0)));
+        expandableListView.setAdapter(new AdapterExpandableListView(getContext(),bd.findAllCliente().get(0),getLista()));
 
         return view;
 
@@ -43,32 +43,33 @@ public class FragmentHistorico extends Fragment {
     }
 
     //ADD AND GET DATA
-    private List<VendasProdutos> getLista(){
+    private List<Venda> getLista(){
 
-        List<VendasProdutos> vendasProdutos=new ArrayList<VendasProdutos>();
+        List<Venda> vendas=bd.findAllVenda();
+//        List<VendasProdutos> vendasProdutos=new ArrayList<VendasProdutos>();
+//
+//        if(bd!=null){
+//
+//            List<Venda> vendas=bd.findAllVenda();
+//
+//            for(Venda v: vendas){
+//                VendasProdutos vp=new VendasProdutos();
+//                vp.setVenda(v);
+//                List<Produto> produtos=bd.findAllProdutosOfVenda(v.getVenCodigo());
+////                Log.d("Produto", produtos.get(0).getProNome());
+//                vp.setProdutos(produtos);
+//                vendasProdutos.add(vp);
+//
+//            }
+//
+//
+//
+//
+//
+//
+//        }
 
-        if(bd!=null){
-
-            List<Venda> vendas=bd.findAllVenda();
-
-            for(Venda v: vendas){
-                VendasProdutos vp=new VendasProdutos();
-                vp.setVenda(v);
-                List<Produto> produtos=bd.findAllProdutosOfVenda(v.getVenCodigo());
-//                Log.d("Produto", produtos.get(0).getProNome());
-                vp.setProdutos(produtos);
-                vendasProdutos.add(vp);
-
-            }
-
-
-
-
-
-
-        }
-
-        return vendasProdutos;
+        return vendas;
     }
 //    private ArrayList<Object> getData()
 //    {
