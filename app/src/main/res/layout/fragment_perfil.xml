@@ -8,9 +8,8 @@
 
 
     <ListView
-        android:id="@+id/listViewPratos"
+        android:id="@+id/listViewPerfil"
         android:layout_width="match_parent"
-        android:layout_height="514dp"
-        tools:listitem="@android:layout/simple_list_item_1" />
+        android:layout_height="514dp" />
     
 </LinearLayout>

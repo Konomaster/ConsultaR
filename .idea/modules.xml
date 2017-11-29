@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ConsultaR.iml" filepath="$PROJECT_DIR$/ConsultaR.iml" />
+      <module fileurl="file://C:\Users\wever\Desktop\ConsutaR\ConsultaR.iml" filepath="C:\Users\wever\Desktop\ConsutaR\ConsultaR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConsutaR.iml" filepath="$PROJECT_DIR$/ConsutaR.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\wever\Desktop\ConsutaR\app\app.iml" filepath="C:\Users\wever\Desktop\ConsutaR\app\app.iml" />
     </modules>
   </component>
 </project>

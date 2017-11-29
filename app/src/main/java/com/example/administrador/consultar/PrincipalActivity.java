@@ -162,8 +162,8 @@ public class PrincipalActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_como_funciona:
-
-               // replaceFragment(op3);
+                FragmentPerfil op3 = new FragmentPerfil();
+                replaceFragment(op3);
                 ActionBar supo = getSupportActionBar();
                 supo.setDisplayUseLogoEnabled(true);
                 supo.setTitle("Perfil");
